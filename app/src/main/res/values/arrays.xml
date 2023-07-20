@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
+        <item>@string/settings_order_by_relevance_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+        <item>@string/settings_order_by_relevance_value</item>
+    </string-array>
+
+    <string-array name="settings_section_labels">
+        <item>@string/settings_section_all_label</item>
+        <item>@string/settings_section_books_label</item>
+        <item>@string/settings_section_education_label</item>
+        <item>@string/settings_section_travel_label</item>
+    </string-array>
+
+    <string-array name="settings_section_values">
+        <item>@string/settings_section_all_value</item>
+        <item>@string/settings_section_books_value</item>
+        <item>@string/settings_section_education_value</item>
+        <item>@string/settings_section_travel_value</item>
+    </string-array>
+
+</resources>

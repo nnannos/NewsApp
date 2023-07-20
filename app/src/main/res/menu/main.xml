@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Menu items-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.newsapp.MainActivity">
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/icons_recycling_symbol"
+        android:orderInCategory="3"
+        android:title="@string/refreshing_menu_item"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_filter"
+        android:orderInCategory="4"
+        android:title="@string/settings_menu_item"
+        app:showAsAction="always"></item>
+
+</menu>

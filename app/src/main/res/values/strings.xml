@@ -1,0 +1,65 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">News App</string>
+
+    <!-- Title text for the empty view -->
+    <string name="empty_view_title_text">Sorry, no news found for your settings.</string>
+    <!-- Subtitle text for the empty view -->
+    <string name="empty_view_subtitle_text">Cannot fetch news! :) </string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings For Keyword Preference [CHAR LIMIT=30] -->
+    <string name="settings_keyword_label">Search for</string>
+    <string name="settings_keyword_key" translatable="false">keyword</string>
+    <string name="settings_keyword_default" translatable="false">Greece</string>
+
+    <!-- Strings For Category Preference [CHAR LIMIT=30] -->
+    <string name="settings_section_label">Category</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">@string/settings_section_travel_value</string>
+
+    <!-- Label for category books option [CHAR LIMIT=20] -->
+    <string name="settings_section_books_label">Books</string>
+    <string name="settings_section_books_value" translatable="false">books</string>
+
+
+    <!-- Label for category education option [CHAR LIMIT=20] -->
+    <string name="settings_section_education_label">Education</string>
+    <string name="settings_section_education_value" translatable="false">education</string>
+
+    <!-- Label for category travel option [CHAR LIMIT=20] -->
+    <string name="settings_section_travel_label">Travel</string>
+    <string name="settings_section_travel_value" translatable="false">travel</string>
+
+    <!-- Label for category ALL option [CHAR LIMIT=20] -->
+    <string name="settings_section_all_label">All Sections</string>
+    <string name="settings_section_all_value" translatable="false">all</string>
+
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Most Recent</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by less recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Less Recent</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by most relevant option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Most Relevant</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!--Other Messages-->
+    <string name="no_internet_connection">No internet found</string>
+    <string name="refreshing_menu_item">Refresh</string>
+    <string name="message_refreshing">Refreshing articles... Please wait</string>
+    <string name="no_web_browser_activity">There is no activity for handling website browsing on your phone</string>
+</resources>
